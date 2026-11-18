@@ -1,0 +1,28 @@
+# Pastas com planilhas reais (cada uma com ~60 arquivos)
+planilhas_*/
+
+# Planilha real com dados reais
+tabela.xlsx
+
+# Arquivos temporários do Excel (aparecem quando o arquivo está aberto)
+~$*.xlsx
+~$*.xls
+~$*
+
+# Qualquer outra planilha solta na raiz, exceto o modelo padrão
+/*.xlsx
+/*.xls
+/*.csv
+!Controle de Helados - Modelo Padrao.xlsx
+!Controle de Helados - PADRÃO*.xlsx
+!exemplo_lista_de_lojas.xlsx
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Editor
+.vscode/
