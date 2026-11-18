@@ -53,7 +53,7 @@ def gerar_planilha(linha, pasta_saida):
     consolidado.protection = SheetProtection()
     consolidado.protection.sheet = False
 
-    for linha_num in range(7, 23):  # A7 até A22 (inclusive)
+    for linha_num in range(7, 24):  # A7 até A23 (inclusive)
         consolidado.cell(row=linha_num, column=1).value = codigo
 
     # Reprotege (sem senha, igual ao original)
